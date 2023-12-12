@@ -31,9 +31,12 @@ Note: You might need to use the same method more than once.
 
 For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
-
+// chatGPT: In this function, reduce is used to iterate through each sub-array in the input array. For each sub-array, filter is used to count the occurrences of the target integer (num === target). The total count is then accumulated using the reduce function, and the final result is returned.
 const count = (target, input) => {
-  // Solution code here...
+  return input.reduce((totalCount, subArray) => {
+    const occurrencesInSubArray = subArray.filter(num => num === target).length;
+    return totalCount + occurrencesInSubArray;
+  }, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------

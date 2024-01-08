@@ -3,16 +3,27 @@
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
 ## Repository Quick Tour and Usage
+This is a collection of code challenges I've completed as part of my software development learning journey at Code Fellows.
+
+### Table of Contents
+
+(see below for information about 301 level code challenges)
+
+#### 401
+[Array Reverse](python/docs/codechal-01/README-01.md)
+
+
+
 
 ### 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
 
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
+I've added new files to this folder for the day's assigned code challenges.
 
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
+I ran `npm install` from within this folder to setup my system to be able to run tests using `Jest`
 
-To run your tests
+To run my tests
 
 - Change to the `javascript` folder
 - run `npm test` to run all of the tests
@@ -20,4 +31,4 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- Following instructions specific to my 401 language (python), which can be found in the directory below, matching my course.

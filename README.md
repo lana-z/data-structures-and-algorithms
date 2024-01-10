@@ -10,10 +10,13 @@ This is a collection of code challenges I've completed as part of my software de
 (see below for information about 301 level code challenges)
 
 #### 401
-[Array Reverse](python/docs/codechal-01/README-01.md)
+[Array Reverse](python/docs/codechal-01/README.md)
+
+[Insert Shift Array](python/docs/codechal-02/README.md)
 
 
-
+<br>
+<br>
 
 ### 301 Code Challenges
 
@@ -31,4 +34,4 @@ To run my tests
 
 ### 401 Data Structures, Code Challenges
 
-- Following instructions specific to my 401 language (python), which can be found in the directory below, matching my course.
+- I am following instructions specific to my 401 language (python), which can be found in the directory below, matching my course.

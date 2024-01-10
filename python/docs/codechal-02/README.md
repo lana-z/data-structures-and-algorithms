@@ -23,6 +23,9 @@ Source: [timecomplexity.ai](https://www.timecomplexity.ai/?id=82448377-2621-48f6
 
 
 ## Solution
+
+Link to my [Replit](https://replit.com/@lana41/Codechal-02#main.py)
+
 ```python
 
 def reverse_list(items):

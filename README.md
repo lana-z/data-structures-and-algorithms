@@ -14,6 +14,7 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Insert Shift Array](python/docs/codechal-02/README.md)
 
+[Binary Search](python/docs/codechal-03/README.md)
 
 <br>
 <br>

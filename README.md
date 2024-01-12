@@ -16,6 +16,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Binary Search](python/docs/codechal-03/README.md)
 
+[Sum Matrix of Arrays](python/docs/codechal-04/README.md)
+
 <br>
 <br>
 

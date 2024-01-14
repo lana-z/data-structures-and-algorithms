@@ -1,15 +1,25 @@
 class LinkedList:
-    """
-    Put docstring here
-    """
 
     def __init__(self):
-        # initialization here
-        pass
+        self.head = None
 
-    def some_method(self):
-        # method body here
-        pass
+
+    def insert(self, value):
+        new_node = Node(value)
+        new_node.next = self.head
+        self.head = new_node
+
+    def include
+
+    def __str__(self):
+        values = []
+        current = self.head
+
+
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
 
 
 class TargetError:

@@ -9,13 +9,19 @@ Features
     - includes
     - to string
 
-It raises custom error messages and tests to prove the functionality. 
+It raises custom error messages and tests to prove the functionality.
 
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
+N/A
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Learning the basics of linked lists.
+
+Resources:
+- Various articles and research on linked lists
+- JB's demo in Class 05
+- ChatGPT
 
 ## Solution
-<!-- Show how to run your code, and examples of it in action -->
+See [linked_list.py](python/data_structures/linked_list.py)
+and [test_linked_list.py](python/tests/data_structures/test_linked_list.py)

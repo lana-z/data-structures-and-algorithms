@@ -1,3 +1,8 @@
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
 class LinkedList:
 
     def __init__(self):
@@ -7,22 +12,30 @@ class LinkedList:
         new_node = Node(value)
         new_node.next = self.head
         self.head = new_node
-        
+
 
     def __str__(self):
-        values = []
+        result = []
         current = self.head
+
+        string_representation = ""
+
         while current:
-            values.append(str(current.value))
+            string_representation += f"{{ {current.value} }} -> "
             current = current.next
-        return "NULL"
 
+        string_representation += "NULL"
+        return string_representation
 
-class Node:
-    def __init__(self, value):
-        self.value = value
-        self.next = None
+    def includes(self, value):
+        current = self.head
 
+        while current:
+            if current.value == value:
+                return True
+            current = current.next
+
+        return False
 
 class TargetError:
     pass

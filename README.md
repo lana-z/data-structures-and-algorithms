@@ -18,6 +18,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Sum Matrix of Arrays](python/docs/codechal-04/README.md)
 
+[Linked List](python/docs/codechal-05/README.md)
+
 <br>
 <br>
 

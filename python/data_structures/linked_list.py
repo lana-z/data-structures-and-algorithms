@@ -37,5 +37,55 @@ class LinkedList:
 
         return False
 
-class TargetError:
+    def append(self, value):
+        new_node = Node(value)
+        if not self.head:
+            self.head = new_node
+            return
+
+        current = self.head
+        while current.next:
+            current = current.next
+        current.next = new_node
+
+    def insert_before(self, value, new_value):
+        new_node = Node(new_value)
+        if not self.head:
+            raise TargetError("Cannot insert before in an empty list")
+
+        if self.head.value == value:
+            new_node.next = self.head
+            self.head = new_node
+            return
+
+        current = self.head
+        while current.next and current.next.value != value:
+            current = current.next
+
+        if current.next is None:
+            raise TargetError("Value not found in the list")
+
+        new_node = Node(new_value)
+        new_node.next = current.next
+        current.next = new_node
+
+    def insert_after(self, value, new_value):
+        if not self.head:
+            raise TargetError("Cannot insert after in an empty list")
+
+
+        current = self.head
+
+        while current and current.value != value:
+            current = current.next
+
+        if current is None:
+            raise TargetError("Value not found in the list")
+
+        new_node = Node(new_value)
+        new_node.next = current.next
+        current.next = new_node
+
+
+class TargetError(Exception):
     pass

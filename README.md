@@ -20,6 +20,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Linked List](python/docs/codechal-05/README.md)
 
+[Linked List Insertions](python/docs/codechal-06/README.md)
+
 <br>
 <br>
 

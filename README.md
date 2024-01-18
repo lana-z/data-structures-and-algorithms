@@ -20,7 +20,11 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Linked List](python/docs/codechal-05/README.md)
 
-[Linked List Insertions](python/docs/codechal-06/README.md)
+[Linked List Insertions](python/docs/linked_list_insertions/README.md)
+
+[Linked List Kth](python/docs/linked_list_kth/README.md)
+
+[Linked List Zip](python/docs/linked_list_zip/README.md)
 
 <br>
 <br>

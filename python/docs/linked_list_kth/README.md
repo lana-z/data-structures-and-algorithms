@@ -17,7 +17,7 @@ Defined the problem statement, listed questions to consider, visualized inputs a
 
 Resources:
 - Various articles and research on linked lists
-- My previous [Linked List](/python/docs/codechal-05/README.md) code challenges
+- My previous [Linked List](/python/docs/codechal-05/README.md) implementations
 - ChatGPT
 
 #### Big O

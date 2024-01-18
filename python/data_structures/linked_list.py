@@ -87,5 +87,29 @@ class LinkedList:
         current.next = new_node
 
 
+    def kth_from_end(self, k):
+        if k < 0:
+            raise TargetError("Negative value for k is not allowed")
+
+        current = self.head
+        runner = self.head
+
+        # Move runner k steps ahead
+        for _ in range(k):
+            if runner is None:
+                raise TargetError("k is out of range")
+            runner = runner.next
+
+        # Additional check if k is exactly the length of the list
+        if runner is None:
+            raise TargetError("k is out of range")
+
+        # Move both pointers until runner reaches the end
+        while runner.next:
+            current = current.next
+            runner = runner.next
+
+        return current.value
+
 class TargetError(Exception):
     pass

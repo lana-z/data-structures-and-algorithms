@@ -1,4 +1,5 @@
 from data_structures.linked_list import Node
+from data_structures.invalid_operation_error import InvalidOperationError
 
 class Stack:
 
@@ -15,7 +16,7 @@ class Stack:
 
     def pop(self):
         if self.top is None:
-            raise ValueError("Stack is empty")
+            raise InvalidOperationError("Method not allowed on empty collection")
 
         pop_value = self.top.value
         #move the pointer which "removes" the node
@@ -26,7 +27,7 @@ class Stack:
 
     def peek(self):
         if self.top is None:
-            raise ValueError("Stack is empty")
+            raise InvalidOperationError("Method not allowed on empty collection")
         return self.top.value
 
 

@@ -1,4 +1,5 @@
 from data_structures.linked_list import Node
+from data_structures.invalid_operation_error import InvalidOperationError
 
 class Queue:
 
@@ -27,7 +28,7 @@ class Queue:
     def dequeue(self):
         #removes the node from the front of the queue, and returns the node’s value.
         if self.front is None:
-            raise ValueError("Queue is empty")
+            raise InvalidOperationError("Method not allowed on empty collection")
 
         #get the value of the front
         dequeue_value = self.front.value
@@ -45,7 +46,7 @@ class Queue:
 
     def peek(self):
         if self.front is None:
-            raise ValueError("Queue is empty")
+            raise InvalidOperationError("Method not allowed on empty collection")
         return self.front.value
 
 

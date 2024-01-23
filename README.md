@@ -28,6 +28,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Stack and Queue](python/docs/stack_and_queue/README.md)
 
+[Stack Queue Pseudo](python/docs/stack_queue_pseudo/README.md)
+
 <br>
 <br>
 

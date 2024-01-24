@@ -30,6 +30,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Stack Queue Pseudo](python/docs/stack_queue_pseudo/README.md)
 
+[Stack Queue Animal Shelter](python/docs/stack_queue_animal_shelter)
+
 <br>
 <br>
 

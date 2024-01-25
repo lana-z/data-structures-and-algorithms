@@ -11,11 +11,11 @@ Features:
 
 ## Whiteboard Process
 
-![Whiteboard](/python/docs/stack_queue_animal_shelter/codechal-12.png)
+![Whiteboard](/python/docs/stack_queue_brackets/codechal-13.png)
 
 ## Approach & Efficiency
 
-Considered how this could work using two queues or a stack and a queue. Whiteboarded the test cases and wrote a plain language algorithm. Attempted the code and used chatgpt to finish the code as well as look at the Big O for both solutions I considered. 
+Considered how this could work using two queues or a stack and a queue. Whiteboarded the test cases and wrote a plain language algorithm. Attempted the code and used chatgpt to finish the code as well as look at the Big O for both solutions I considered.
 
 #### Resources
 - Code Fellows stacks and queues [article](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html)

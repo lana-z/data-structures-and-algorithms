@@ -1,4 +1,3 @@
-from typing import Self
 from data_structures.queue import Queue
 
 

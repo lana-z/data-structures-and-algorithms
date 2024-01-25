@@ -19,7 +19,6 @@ class AnimalShelter:
         else:
             return "Sorry, we only accept cats and dogs."
 
-#there's no test to confirm animals are dequeued in the order they were enqueued
     def dequeue(self, pref=None):
         if pref == "cat" and not self.cat.is_empty():
             return self.cat.dequeue()

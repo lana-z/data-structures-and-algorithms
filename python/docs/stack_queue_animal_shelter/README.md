@@ -1,19 +1,14 @@
 # Stack Queue Animal Shelter
 This project is to create an Animal Shelter app using Stack and Queue data structures.
 
-Features:
+Three queues are created. One for cats, one for dogs and one for both based on the order of arrival to the shelter.
 
-- Stack
-  - Methods:
-    - push
-    - pop
-    - is empty
+Features:
 - Queue
   - Methods:
     - enqueue
     - dequeue
-
-It raises custom error messages and tests to prove the functionality.
+- Classes and Super Class (Animal)
 
 ## Whiteboard Process
 

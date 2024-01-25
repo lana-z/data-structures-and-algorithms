@@ -58,3 +58,18 @@ def test_bad_pref():
     actual = shelter.dequeue("lizard")
     expected = None
     assert expected == actual
+
+# def test_no_pref_before_last():
+#     shelter = AnimalShelter()
+#     felix = Cat("Felix")
+#     garfield = Cat("Garfield")
+#     snoopy = Dog("Snoopy")
+#     goofy = Dog("Goofy")
+#     shelter.enqueue(felix)
+#     shelter.enqueue(snoopy)
+#     shelter.enqueue(garfield)
+#     shelter.enqueue(goofy)
+#     shelter.dequeue("cat")
+#     actual = shelter.dequeue()
+#     expected = goofy
+#     assert expected == actual

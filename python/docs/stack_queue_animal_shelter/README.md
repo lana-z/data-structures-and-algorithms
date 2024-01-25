@@ -25,6 +25,7 @@ Resources:
 - Code Fellows stacks and queues [article](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html)
 - JB's cereal [demo](https://github.com/codefellows/seattle-code-python-401d24/blob/main/class-12/demo/cereals-demo.ipynb) in Class 12
 - ChatGPT
+- JB's code review in Class 13
 
 #### Big O
 
@@ -37,6 +38,10 @@ Source: ChatGPT
 
 
 ## Solution
-Code isn't passing tests yet.
+
+#### Log
+Tues: Code isn't passing tests yet.
+Wed: Code passing tests after addition of the Animal super class.
+
 [stack_queue_animal_shelter.py](/python/code_challenges/stack_queue_animal_shelter.py)
 and [test_stack_queue_animal_shelter.py](/python/tests/code_challenges/test_stack_queue_animal_shelter.py)

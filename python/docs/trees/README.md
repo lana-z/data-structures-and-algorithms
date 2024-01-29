@@ -1,4 +1,4 @@
-# Stacks and Queues
+# Binary Tree & Binary Search Tree
 This project is to implement a Binary Tree and a Binary Search Tree.
 
 Features:
@@ -57,5 +57,3 @@ and [binary_search_tree.py](/python/tests/data_structures/test_stack.py)
 
 [test_binary_tree.py](/python/tests/data_structures/test_binary_tree.py)
 and [test_binary_search_tree.py](/python/tests/data_structures/test_binary_search_tree.py)
-
-custom error [invalid opperation error](/python/data_structures/invalid_operation_error.py)

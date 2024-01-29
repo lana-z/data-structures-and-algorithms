@@ -34,6 +34,7 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Stack Queue Brackets](python/docs/stack_queue_brackets.README.md)
 
+[Trees](python/docs/trees/README.md) - Binary and Binary Search
 
 <br>
 <br>

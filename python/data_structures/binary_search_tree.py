@@ -46,7 +46,8 @@ class BinarySearchTree(BinaryTree):
         walk(self.root, new_node)
 
 
-
+    # self is an instance of BinarySearchTree Class
+        # self.root is an instance of Node Class
     def contains(self, value):
 
         def walk(node_to_ask):
@@ -60,3 +61,19 @@ class BinarySearchTree(BinaryTree):
                 return walk(node_to_ask.right)
 
         return walk(self.root)
+
+    Kyle's version - code review
+    def contains(self, search_value):
+
+        def walk (node, value_search)
+            if node is None:
+                return False
+
+            if value_search == node.value:
+                return True
+            elif value_search < node.value:
+                return walk(node.left, value_search)
+            else:
+                return walk(node.right, value_search)
+        return walk(self.root, search_value)
+

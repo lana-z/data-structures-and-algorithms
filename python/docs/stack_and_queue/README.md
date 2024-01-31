@@ -42,6 +42,6 @@ Source: ChatGPT
 and [test_stack.py](/python/tests/data_structures/test_stack.py)
 
 [queue.py](/python/data_structures/queue.py)
-and [test_stack.py](/python/tests/data_structures/test_queue.py)
+and [test_queue.py](/python/tests/data_structures/test_queue.py)
 
 custom error [invalid opperation error](/python/data_structures/invalid_operation_error.py)

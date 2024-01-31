@@ -40,6 +40,9 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Tree Breadth First](python/docs/tree_breadth_first/README.md)
 
+[Tree Fizz Buzz](python/docs/tree_fizz_buzz/README.md)
+
+
 <br>
 <br>
 

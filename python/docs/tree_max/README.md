@@ -9,7 +9,7 @@ Features:
 
 
 ## Whiteboard Process
-
+![]()
 
 
 ## Approach & Efficiency

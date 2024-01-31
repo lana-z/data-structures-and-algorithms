@@ -9,7 +9,7 @@ Features:
 
 
 ## Whiteboard Process
-[Whiteboard](python/docs/tree_breadth_first/codechal-16.png)
+![Whiteboard](/python/docs/tree_breadth_first/codechal-17.png)
 
 ## Approach & Efficiency
 Reviewed the example, pseudocode and tests provided, whiteboarded test cases and visualized the output. Added the code then used chatgpt to assist on Big O analysis.

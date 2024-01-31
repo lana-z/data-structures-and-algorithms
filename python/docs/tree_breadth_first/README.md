@@ -5,6 +5,7 @@ This project implements a breadth first function taking in tree as an argument a
 Features:
 - Queue
   - breadth_first
+- Node
 
 
 ## Whiteboard Process
@@ -22,13 +23,16 @@ Reviewed the example, pseudocode and tests provided, whiteboarded test cases and
 #### Big O
 
 ##### BinaryTree
-Time Complexity:
+Time Complexity: O(n), where n is the number of nodes in the tree. Each node is visited exactly once, making the time complexity linear in the size of the tree.
 
-Space Complexity:
+Space Complexity: O(w), where w is the maximum width of the tree. This represents the worst-case scenario where the queue stores the maximum number of nodes at any level of the tree.
 
+Source: ChatGPT
 
 
 ## Solution
-[tree_breadth_first.py](/python/code_challenges/tree_breadth_first.py)
+[tree_breadth_first.py](/python/code_challenges/tree_breadth_first.py) and
+[queue.py](/python/data_structures/queue.py)
 
-and [test_tree_breadth_first.py](/python/tests/code_challenges/test_tree_breadth_first.py)
+[test_tree_breadth_first.py](/python/tests/code_challenges/test_tree_breadth_first.py) and
+[test_queue.py](/python/tests/data_structures/test_queue.py)

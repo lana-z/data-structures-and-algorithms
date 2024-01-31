@@ -62,18 +62,18 @@ class BinarySearchTree(BinaryTree):
 
         return walk(self.root)
 
-    Kyle's version - code review
-    def contains(self, search_value):
+    # Kyle's version - code review
+    # def contains(self, search_value):
 
-        def walk (node, value_search)
-            if node is None:
-                return False
+    #     def walk (node, value_search):
+    #         if node is None:
+    #             return False
 
-            if value_search == node.value:
-                return True
-            elif value_search < node.value:
-                return walk(node.left, value_search)
-            else:
-                return walk(node.right, value_search)
-        return walk(self.root, search_value)
+    #         if value_search == node.value:
+    #             return True
+    #         elif value_search < node.value:
+    #             return walk(node.left, value_search)
+    #         else:
+    #             return walk(node.right, value_search)
+    #     return walk(self.root, search_value)
 

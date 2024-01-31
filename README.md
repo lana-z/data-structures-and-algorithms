@@ -36,6 +36,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Trees](python/docs/trees/README.md) - Binary and Binary Search
 
+[Tree-Max](python/docs/tree_max/README.md)
+
 <br>
 <br>
 

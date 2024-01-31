@@ -3,9 +3,9 @@
 
 Features:
 
-- Binary Search Tree
+- Binary Tree
   - Methods
-    - max
+    - find_maximum_value
 
 
 ## Whiteboard Process

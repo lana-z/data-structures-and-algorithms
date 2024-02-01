@@ -39,7 +39,7 @@ class KaryTree:
         cloned_tree.root = walk(self.root)
 
         return cloned_tree
-    
+
 class Node:
     """K-Ary Tree Node"""
 

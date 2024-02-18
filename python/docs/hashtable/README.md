@@ -51,4 +51,4 @@ Source: ChatGPT
 ## Solution
 
 See [hashtable.py](/python/data_structures/hashtable.py)
-and [test_hashtable.py](/python/tests/code_challenges/test_hashtable.py)
+and [test_hashtable.py](/python/tests/data_structures/test_hashtable.py)

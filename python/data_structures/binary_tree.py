@@ -107,33 +107,6 @@ class BinaryTree:
 
         return walk(self.root)
 
-    def find_maximum_value(self):
-        """
-        Find the maximum value in the tree.
-        """
-        if self.root is None:
-            return InvalidOperationError("Method not allowed on empty collection")
-
-        def search_for_max(node):
-            """
-            return largest of 3 choices
-            my value, left max, right max
-            """
-            if node is None:
-                return float("-inf")
-
-            # my_value = node.value
-            # left_max = search_for_max(node.left)
-            # right_max = search_for_max(node.right)
-
-            # return max(my_value, left_max, right_max)
-
-            #same thing as commented out code above
-            return max(node.value, search_for_max(node.left), search_for_max(node.right))
-
-        return search_for_max(self.root)
-
-
 
 class Node:
     def __init__(self, value):

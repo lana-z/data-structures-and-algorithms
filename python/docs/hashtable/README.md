@@ -9,7 +9,7 @@ This project is to implement a hash table.
 
 Resources:
 - [Hashtables](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html)
-- My previous [Linked List](https://github.com/lana-z/data-structures-and-algorithms/blob/main/python/data_structures/linked_list.py) implementation
+- My previous [Linked List](/python/data_structures/linked_list.py) implementation
 - JB's Hashtables demo
 - ChatGPT
 
@@ -50,5 +50,5 @@ Source: ChatGPT
 
 ## Solution
 
-See [hashtable.py](python/data_structures/hashtable.py)
-and [test_hashtable.py](python/tests/code_challenges/test_hashtable.py)
+See [hashtable.py](/python/data_structures/hashtable.py)
+and [test_hashtable.py](/python/tests/code_challenges/test_hashtable.py)

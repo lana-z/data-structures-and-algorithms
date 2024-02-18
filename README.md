@@ -42,6 +42,7 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Tree Fizz Buzz](python/docs/tree_fizz_buzz/README.md)
 
+[Hashtable](python/docs/hashtable/README.md)
 
 <br>
 <br>

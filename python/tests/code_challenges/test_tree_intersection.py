@@ -25,18 +25,47 @@ def test_tree_intersection():
     assert sorted(actual) == sorted(expected)
 
 
-def add_values_to_empty_tree(tree, values):
-    """
-    Helper function to add given values to BinaryTree
-    """
-    tree.root = Node(values.pop())
-    q = Queue()
+# def add_values_to_empty_tree(tree, values):
+#     """
+#     Helper function to add given values to BinaryTree
+#     """
+#     tree.root = Node(values.pop())
+#     q = Queue()
 
-    q.enqueue(tree.root)
+#     q.enqueue(tree.root)
 
-    while values:
-        node = q.dequeue()
-        node.left = Node(values.pop())
-        node.right = Node(values.pop()) if values else None
-        q.enqueue(node.left)
-        q.enqueue(node.right)
+#     while values:
+#         node = q.dequeue()
+#         node.left = Node(values.pop())
+#         node.right = Node(values.pop()) if values else None
+#         q.enqueue(node.left)
+#         q.enqueue(node.right)
+
+
+# def add_values_to_empty_tree(tree, values):
+#     """
+#     Helper function to add given values to a BinaryTree level by level.
+#     Assumes values are provided in an array representing the desired tree level by level.
+#     """
+#     if not values:
+#         return  # Return if the values list is empty
+
+#     root = Node(values.pop(0))  # Create the root node from the first value
+#     tree.root = root  # Set the root of the tree
+#     q = Queue()  # Initialize a queue to help with level-order insertion
+#     q.enqueue(root)  # Enqueue the root
+
+#     while values and not q.is_empty():
+#         node = q.dequeue()  # Dequeue the next node
+
+#         if values:
+#             val = values.pop(0)  # Get the next value for the left child
+#             if val is not None:  # Only add a node if the value is not None
+#                 node.left = Node(val)
+#                 q.enqueue(node.left)
+
+#         if values:
+#             val = values.pop(0)  # Get the next value for the right child
+#             if val is not None:  # Only add a node if the value is not None
+#                 node.right = Node(val)
+#                 q.enqueue(node.right)

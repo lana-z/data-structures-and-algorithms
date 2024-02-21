@@ -104,7 +104,8 @@ class Hashtable:
         Use modulo to get the remainder of the result, when divided by the total size of the array.
         """
         index = 0
-        for char in key:
+        key_str = str(key)
+        for char in key_str:
             index += ord(char)
         index *= 599
         index = index % self._size

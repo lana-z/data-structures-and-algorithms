@@ -44,6 +44,8 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Hashtable](python/docs/hashtable/README.md)
 
+[Tree Intersection](python/docs/tree_intersection/README.md)
+
 <br>
 <br>
 

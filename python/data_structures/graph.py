@@ -41,6 +41,21 @@ class Graph:
         edge = Edge(end_vertex, weight)
         self.adjacency_list[start_vertex].append(edge)
 
+    def __repr__(self):
+        return f"Graph({self.adjacency_list})"
+
+    def get_neighbors(self, vertex):
+        """
+        returns a collection of edges connected to the given node
+        """
+        pass
+
+    def get_nodes(self):
+        """
+        returns all of the nodes in the graph as a collection
+        """
+        pass
+
 class Vertex:
     def __init__(self, value):
         self.value = value

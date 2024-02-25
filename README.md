@@ -46,6 +46,12 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Tree Intersection](python/docs/tree_intersection/README.md)
 
+[Graphs - WIP](python/data_structures/graph.py)
+
+[Hashmap Left Join](python/docs/hashtable_left_join/README.md)
+
+
+
 <br>
 <br>
 

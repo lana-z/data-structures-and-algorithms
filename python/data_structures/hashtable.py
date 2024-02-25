@@ -36,6 +36,7 @@ class Hashtable:
                 # if so, update the value instead of adding a new drop at the head node.
                 candidate_drop[1] = value
                 return
+            current = current.next
 
         # if the specific key isn't found, add the drop aka key-value pair
         drop = [key, value]
@@ -59,7 +60,7 @@ class Hashtable:
             drop = current.value
             if drop[0] == key:
                 return drop[1]
-
+############### check this line
             current = current.next
 
         return None

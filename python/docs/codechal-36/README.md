@@ -4,7 +4,7 @@ Given the root of a tree, determine if it is a binary search tree (BST).
 
 
 ## Whiteboard Process
-![Whiteboard](python/docs/codechal-36/codechal-36.png)
+![Whiteboard](/python/docs/codechal-36/codechal-36.png)
 
 
 ## Approach & Efficiency
@@ -24,4 +24,4 @@ O(h) with h representing the height of the tree
 
 
 ## Solution
-See ![whiteboard](python/docs/codechal-36/codechal-36.png)
+See ![whiteboard](/python/docs/codechal-36/codechal-36.png)

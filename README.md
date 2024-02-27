@@ -50,6 +50,7 @@ This is a collection of code challenges I've completed as part of my software de
 
 [Hashmap Left Join](python/docs/hashtable_left_join/README.md)
 
+[Determine if BST](python/docs/codechal-36/README.md)
 
 
 <br>
